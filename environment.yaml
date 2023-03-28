@@ -1,0 +1,8 @@
+name: maccor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pip:
+    - battery-data-toolkit==0.*
