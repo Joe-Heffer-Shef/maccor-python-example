@@ -11,14 +11,14 @@ Create a Python virtual environment with the following dependencies:
 
 * [battery-data-toolkit](https://pypi.org/project/battery-data-toolkit/)
 
-This may done using the environment manager of your choice. Please see guidance below.
+This may be done using the environment manager of your choice. Please see guidance below.
 
 ## Conda
 
 To create a virtual environment using the [Conda](https://docs.conda.io/en/latest/) environment manager that's defined using [environment.yaml](./environment.yaml)
 
 ```bash
-# Create environemnt
+# Create environment
 conda env --name my_maccor_env --file environment.yaml
 # Activate environment
 conda activate my_maccor_env
@@ -29,7 +29,7 @@ conda activate my_maccor_env
 [venv](https://docs.python.org/3/library/venv.html) Creation of virtual environments
 
 ```bash
-# Create environemnt
+# Create environment
 python -m venv ./my_maccor_env
 # Activate environment
 ./my_maccor_env/bin/activate
