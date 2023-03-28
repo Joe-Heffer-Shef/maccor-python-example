@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm
 .idea
+
+# MACCOR files
+*.[0-9][0-9][0-9]
